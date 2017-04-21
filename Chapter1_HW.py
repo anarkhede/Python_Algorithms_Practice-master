@@ -41,4 +41,7 @@ def comp_sumofoddsq(n):
     return sum(n*n for n in range(n+1) if n % 2 is not 0)
 
 
-
+# R1.8: s[j] = s[k+len(s)]
+# R1.9: (k*10 for k in range(5,9))
+# R1.10: (k*2 for k in range(4,-5,-1))
+# R1.11 [2**k for k in range(0,9)]
